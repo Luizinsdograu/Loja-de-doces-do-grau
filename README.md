@@ -3,40 +3,40 @@
 banco de dados 
 
 tabela usuario:
-nome
-id
-email
-senha
+nome;
+id;
+email;
+senha;
 
 tabela cartao:
-tipo: credito/debito
-id
-senha
-for key usuario
+tipo: credito/debito;
+id;
+senha;
+for key usuario;
 
 tabela lagadouro:
-tipo: rua/avenida/bairro
-nome
-id
+tipo: rua/avenida/bairro;
+nome;
+id;
 
 tabela me
-cidade
-estado
-pais
-id
+cidade;
+estado;
+pais;
+id;
 
 
 tabela endereco:
-cep
-numero da casa
-for key usuario
-for key lagadouro
-for key me
+cep;
+numero da casa;
+for key usuario;
+for key lagadouro;
+for key me;
 
 tabela itens:
-nome
-id
-valor
-descricao
-quantidade
+nome;
+id;
+valor;
+descricao;
+quantidade;
 
